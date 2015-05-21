@@ -1,1 +1,11 @@
 * getSignedInfo 脚本使用说明
+
+** install
+- git clone https://github.com/picksomething/python-tools.git
+
+** usage
+- ./getSignedInfo.py a.apk  获取a.apk的签名MD5信息
+- ./getSignedInfo.py a.apk b.apk 比较a.apk和b.apk的签名MD5，输出签名信息是否相同，不同的话输出各自的MD5
+
+** other
+- 使用的是Python3
